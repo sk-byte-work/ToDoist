@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS tasks(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    status INT
+);
